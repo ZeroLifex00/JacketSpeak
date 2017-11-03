@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="VerticalBackground" parent="@style/AppTheme">
+        <item name="android:background">@drawable/ic_background</item>
+    </style>
+    <style name="Salutations" parent="@style/AppTheme">
+        <item name="android:backgroundTint">#61D955</item>
+        <item name="android:textColor">#8C2A68</item>
+    </style>
+    <style name="Affirmative" parent="@style/AppTheme">
+        <item name="android:backgroundTint">#FFFA3E</item>
+        <item name="android:textColor">#6B00FF</item>
+    </style>
+    <style name="Movement" parent="@style/AppTheme">
+        <item name="android:backgroundTint">#08FFEE</item>
+        <item name="android:textColor">#FF5500</item>
+    </style>
+    <style name="Orders" parent="@style/AppTheme">
+        <item name="android:backgroundTint">#FF1FF8</item>
+        <item name="android:textColor">#6DFF27</item>
+    </style>
+    <style name="Phrases" parent="@style/AppTheme">
+        <item name="android:backgroundTint">#FF7D31</item>
+        <item name="android:textColor">#83FFFF</item>
+    </style>
+
+</resources>

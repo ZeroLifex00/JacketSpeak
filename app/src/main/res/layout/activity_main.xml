@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/VerticalBackground"
+    tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                style="@style/Salutations"
+                android:id="@+id/hi"
+                android:onClick="playHi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hi"/>
+
+            <Button
+                style="@style/Salutations"
+                android:id="@+id/hello"
+                android:onClick="playHello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/hi"
+                android:text="@string/hello"/>
+
+            <Button
+                style="@style/Salutations"
+                android:id="@+id/goodbye"
+                android:onClick="playGoodbye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/hello"
+                android:text="@string/goodbye"/>
+
+            <Button
+                style="@style/Affirmative"
+                android:id="@+id/acknowledged"
+                android:onClick="playAcknowledged"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hi"
+                android:text="@string/acknowledged"/>
+
+            <Button
+                style="@style/Affirmative"
+                android:id="@+id/thanksinadvance"
+                android:onClick="playThanksinadvance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/acknowledged"
+                android:layout_below="@id/hello"
+                android:text="@string/thanksinadvance"/>
+
+            <Button
+                style="@style/Affirmative"
+                android:id="@+id/thankyouverymuch"
+                android:onClick="playThankyouverymuch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/acknowledged"
+                android:text="@string/thanksverymuch"/>
+
+            <Button
+                style="@style/Affirmative"
+                android:id="@+id/youcanthankmelater"
+                android:onClick="playYoucanthankmelater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/thankyouverymuch"
+                android:layout_below="@id/thanksinadvance"
+                android:text="@string/thankmelater"/>
+
+            <Button
+                style="@style/Movement"
+                android:id="@+id/hurryup"
+                android:onClick="playHurryup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thankyouverymuch"
+                android:text="@string/hurryup"/>
+
+            <Button
+                style="@style/Movement"
+                android:id="@+id/iminahurry"
+                android:onClick="playIminahurry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/hurryup"
+                android:layout_below="@id/youcanthankmelater"
+                android:text="@string/iminahurry"/>
+
+            <Button
+                style="@style/Movement"
+                android:id="@+id/letsgo"
+                android:onClick="playLetsgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/iminahurry"
+                android:layout_below="@id/youcanthankmelater"
+                android:text="@string/letsgo"/>
+
+            <Button
+                style="@style/Movement"
+                android:id="@+id/makeyourwayinside"
+                android:onClick="playMakeyourwayinside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hurryup"
+                android:text="@string/makeyourwayinside"/>
+
+            <Button
+                style="@style/Movement"
+                android:id="@+id/pleaseproceed"
+                android:onClick="playPleaseproceed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/makeyourwayinside"
+                android:layout_below="@id/hurryup"
+                android:text="@string/pleaseproceed"/>
+
+            <Button
+                style="@style/Movement"
+                android:id="@+id/weshouldgo"
+                android:onClick="playWeshouldgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/makeyourwayinside"
+                android:text="@string/weshouldgo"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/armsoutstretched"
+                android:onClick="playArmsoutstretched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weshouldgo"
+                android:text="@string/armsoutstretched"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/kneelingposition"
+                android:onClick="playKneelingposition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/armsoutstretched"
+                android:layout_below="@id/weshouldgo"
+                android:text="@string/kneelingposition"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/pleaseacceptthisgift"
+                android:onClick="playPleaseacceptthisgift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/armsoutstretched"
+                android:text="@string/acceptthisgift"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/pleaseapplyhandcuffsthankyou"
+                android:onClick="playPleaseapplyhandcuffsthankyou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/pleaseacceptthisgift"
+                android:layout_below="@id/kneelingposition"
+                android:text="@string/applyhandcuffs"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/pleasecalltechnicalsupport"
+                android:onClick="playPleasecalltechnicalsupport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pleaseacceptthisgift"
+                android:text="@string/calltechsupport"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/pleasedontdothatagain"
+                android:onClick="playPleasedontdothatagain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/pleasecalltechnicalsupport"
+                android:layout_below="@+id/pleaseapplyhandcuffsthankyou"
+                android:text="@string/dontdothat"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/pleasepayattention"
+                android:onClick="playPleasepayattention"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pleasecalltechnicalsupport"
+                android:text="@string/payattention"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/staycalmanddontpanic"
+                android:onClick="playStaycalmanddontpanic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/pleasepayattention"
+                android:layout_below="@+id/pleasedontdothatagain"
+                android:text="@string/staycalmanddontpanic"/>
+
+            <Button
+                style="@style/Orders"
+                android:id="@+id/wakeup"
+                android:onClick="playWakeup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pleasepayattention"
+                android:text="@string/wakeup"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/avoidfatalinjury"
+                android:onClick="playAvoidfatalinjury"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wakeup"
+                android:text="@string/avoidfatalinjury"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/doyouknowwhattimeitis"
+                android:onClick="playDoyouknowwhattimeitis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/avoidfatalinjury"
+                android:layout_below="@id/wakeup"
+                android:text="@string/doyouknowwhattimeitis"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/ibelievehooraysareinorder"
+                android:onClick="playIbelievehooraysareinorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/avoidfatalinjury"
+                android:text="@string/ibelievehooraysareinorder"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/idontfeeltoowell"
+                android:onClick="playIdontfeeltoowell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ibelievehooraysareinorder"
+                android:text="@string/idontfeeltoowell"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/ihadagreattime"
+                android:onClick="playIhadagreattime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/idontfeeltoowell"
+                android:layout_below="@id/ibelievehooraysareinorder"
+                android:text="@string/ihadagreattime"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/imadeamistake"
+                android:onClick="playImadeamistake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idontfeeltoowell"
+                android:text="@string/imadeamistake"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/iwillgladlyhelp"
+                android:onClick="playIwillgladlyhelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imadeamistake"
+                android:layout_below="@id/ihadagreattime"
+                android:text="@string/iwillgladlyhelp"/>
+
+            <Button
+                style="@style/Phrases"
+                android:id="@+id/whatalovelydayright"
+                android:onClick="playWhatalovelydayright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imadeamistake"
+                android:text="@string/whatalovelydayright"/>
+
+        </RelativeLayout>
+
+</ScrollView>

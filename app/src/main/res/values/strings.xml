@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">JacketSpeak</string>
+
+    <string name="hi">Hi</string>
+    <string name="hello">Hello</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="acknowledged">Acknowledged</string>
+    <string name="thanksinadvance">Thanks in adv</string>
+    <string name="thanksverymuch">Thanks very much</string>
+    <string name="thankmelater">Thank me later</string>
+    <string name="hurryup">Hurry up</string>
+    <string name="iminahurry">I\'m in a hurry</string>
+    <string name="letsgo">Let\'s Go</string>
+    <string name="makeyourwayinside">Make your way inside</string>
+    <string name="pleaseproceed">Please proceed</string>
+    <string name="weshouldgo">We should go</string>
+    <string name="armsoutstretched">Arms outstretched</string>
+    <string name="kneelingposition">Kneeling position</string>
+    <string name="acceptthisgift">Accept this gift</string>
+    <string name="applyhandcuffs">Apply handcuffs</string>
+    <string name="calltechsupport">Call tech support</string>
+    <string name="dontdothat">Don\'t do that</string>
+    <string name="payattention">Pay attention</string>
+    <string name="staycalmanddontpanic">Stay calm and don\'t panic</string>
+    <string name="wakeup">Wake up</string>
+    <string name="avoidfatalinjury">Avoid fatal injury</string>
+    <string name="doyouknowwhattimeitis">Do you know what time it is?</string>
+    <string name="ibelievehooraysareinorder">I believe hoorays are in order</string>
+    <string name="idontfeeltoowell">I don\'t feel too well</string>
+    <string name="ihadagreattime">I had a great time</string>
+    <string name="imadeamistake">I made a mistake</string>
+    <string name="iwillgladlyhelp">I will gladly help</string>
+    <string name="whatalovelydayright">What a lovely day right?</string>
+
+
+</resources>
