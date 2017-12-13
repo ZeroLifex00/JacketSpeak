@@ -11,4 +11,4 @@ TODO
 
 - Test Android O support
 - See how app works when horizontal
-- Change to ContsraintLayout
+- Change to ConstraintLayout
