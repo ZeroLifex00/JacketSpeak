@@ -9,6 +9,7 @@ I'm a total development newbie so a lot of this probably seems elementary or wro
 
 TODO
 
+- Fix issues with Android 9
 - See how app works when horizontal
 - Change to ConstraintLayout
 - Fix memory issue I don't know how to fix
